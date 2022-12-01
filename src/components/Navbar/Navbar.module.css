@@ -1,0 +1,18 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+}
+
+.item {
+    color: white;
+}
+
+
+
+
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 0;
+}
