@@ -1,0 +1,16 @@
+.friends {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.friendsItems {
+    padding: 10px;
+}
+
+.friendsItems .active {
+    color: gold;
+}
+
+.friend {
+
+}

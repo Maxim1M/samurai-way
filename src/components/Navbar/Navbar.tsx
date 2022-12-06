@@ -16,6 +16,9 @@ export const Navbar = () => {
                     <NavLink to='/dialogs' activeClassName={s.activeLink}>Messages</NavLink>
                 </li>
                 <li className={s.item}>
+                    <NavLink to={'/friends'} activeClassName={s.activeLink} >Friends</NavLink>
+                </li>
+                <li className={s.item}>
                     <NavLink to='/music' activeClassName={s.activeLink}>Music</NavLink>
                 </li>
                 <li className={s.item}>

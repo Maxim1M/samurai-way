@@ -1,12 +1,20 @@
 import React from "react";
 import {MyPosts} from "./MyPosts/MyPosts";
 import {ProfileInfo} from "./ProfileInfo/ProfileInfo";
+import {PostDataType} from "../../App";
 
-export const Profile = () => {
+type profilePageType = {
+    postData: PostDataType[]
+}
+export type ProfilePropsType = {
+    stateProfile: profilePageType
+}
+
+export const Profile = (props: ProfilePropsType) => {
     return (
         <main>
-            <ProfileInfo />
-            <MyPosts />
+            <ProfileInfo/>
+            <MyPosts postData={props.stateProfile.postData}/>
         </main>
     )
 }
